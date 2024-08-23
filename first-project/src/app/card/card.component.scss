@@ -20,3 +20,17 @@
         font-size: 40px;
     }
 }
+
+.global {
+  background-color: greenyellow;
+}
+
+::ng-deep .card-cancel-button {
+  color: red !important;
+  background-color: yellow !important;
+}
+
+// material slider - da biblioteca angular material para apenas este componente recebe uma config propria
+:host ::ng-deep mat-slider .mdc-slider__track--active_fill {
+  border-color: green !important;
+}
