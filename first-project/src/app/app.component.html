@@ -1,4 +1,10 @@
 <div class="cards-container">
-  <app-card></app-card>
+  <app-card [planType] = "cardPlanType" [planPrice] = "cardPlanPrice"></app-card>
   <app-card-purple></app-card-purple>
 </div>
+
+
+
+<br />
+
+<input #meuInput type="text" (keyup)="handlerPlanType(meuInput.value)" placeholder="Digite o plano" />
