@@ -3,10 +3,21 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  buttonClicked() {
-    console.log('Buton Clicked')
+  plan1 = {
+    type: 'Simples',
+    price: 100,
+  }
+
+  plan2 = {
+    type: 'Completo',
+    price: 200,
+  }
+
+  onCardButtonClicked() {
+    console.log('onCardButtonClicked')
+    //chamada HTTP
   }
 }
