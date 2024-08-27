@@ -1,0 +1,18 @@
+.click{
+  width: 100%;
+  padding: 18px;
+  align-items: center;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+
+  &--primary {
+    background-color: rgb(76, 76, 194);
+    color: white;
+  }
+
+  &--secondary {
+    background-color: rgb(190, 87, 87);
+    color: white;
+  }
+}

@@ -1,0 +1,24 @@
+.input {
+  border: 1px solid #dac4c4;
+  padding: 14px;
+  border-radius: 20px;
+  font-size: 14px;
+
+  &--small {
+    width: 100px;
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  &--medium {
+    width: 150px;
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  &--large {
+    width: 200px;
+    font-size: 16px;
+    padding: 12px;
+  }
+}
