@@ -12,5 +12,13 @@ export class AppComponent {
     { name: 'Andreas', age: 29 },
     { name: 'Eduardo', age: 30 },
     { name: 'Rodrigo', age: 31 }
-  ]
+  ];
+
+  personSelectedIndex: number | undefined;
+
+  selectPerson(index: number) {
+    console.log(index);
+
+    this.personSelectedIndex = index
+  }
 }
