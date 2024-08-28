@@ -8,6 +8,8 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
+    '@storybook/addon-docs', //serve para aprsentar a histório no book
+    '@storybook/addon-actions', //serve para aprsentar a histório no book npm install @storybook/addon-actions --save-dev
   ],
   framework: {
     name: "@storybook/angular",

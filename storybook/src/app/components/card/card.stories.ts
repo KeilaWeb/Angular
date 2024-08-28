@@ -21,5 +21,7 @@ export const Orange: StoryObj<CardComponent> = {
 export const Blue: StoryObj<CardComponent> = {
   args: {
     cardStyle: 'blue',
+    planType: "",
+    planPrice: 0
   }
 }

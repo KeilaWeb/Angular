@@ -412,7 +412,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".input {\r\n  border: 1px solid #ccc;\r\n  border-radius: 4px;\r\n  padding: 8px;\r\n  font-size: 14px;\r\n\r\n  &--small {\r\n    width: 100px;\r\n    font-size: 12px;\r\n    padding: 4px;\r\n  }\r\n\r\n  &--medium {\r\n    width: 150px;\r\n    font-size: 14px;\r\n    padding: 8px;\r\n  }\r\n\r\n  &--large {\r\n    width: 200px;\r\n    font-size: 16px;\r\n    padding: 12px;\r\n  }\r\n}\r\n",
+                    "data": ".input {\r\n  border: 1px solid #dac4c4;\r\n  padding: 14px;\r\n  border-radius: 20px;\r\n  font-size: 14px;\r\n\r\n  &--small {\r\n    width: 100px;\r\n    font-size: 16px;\r\n    padding: 12px;\r\n  }\r\n\r\n  &--medium {\r\n    width: 150px;\r\n    font-size: 16px;\r\n    padding: 12px;\r\n  }\r\n\r\n  &--large {\r\n    width: 200px;\r\n    font-size: 16px;\r\n    padding: 12px;\r\n  }\r\n}\r\n",
                     "styleUrl": "./input.component.scss"
                 }
             ],
