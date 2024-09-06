@@ -1,0 +1,14 @@
+<label for="name">Nome:</label>
+<input type="text" id="name" [formControl]="nome" (input)="inputAlterado()" />
+
+<p>Valor: {{ nome.value }}</p>
+
+<button (click)="mostrarStatus()">Mostrar status</button><br>
+
+<button (click)="alterarValor()">Alterar valor</button><br>
+
+<button (click)="desabilitar()">Desabilitar</button><br>
+
+<button (click)="habilitar()">Habilitar</button><br>
+
+<button (click)="resetar()">Resetar</button>
