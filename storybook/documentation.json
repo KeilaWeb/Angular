@@ -481,6 +481,69 @@
             "extends": []
         },
         {
+            "name": "NotificationComponent",
+            "id": "component-NotificationComponent-e70492f26d8d725013bcd22d353236838a8a966aa6a16e2c34d531ad406672fb978274a025ee4a2e870dad6eeecc16435a51a682e32324ba98438129ce64485d",
+            "file": "src/app/components/notification/notification.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-notification",
+            "styleUrls": [
+                "./notification.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./notification.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "name": "message",
+                    "defaultValue": "''",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 9,
+                    "type": "string",
+                    "decorators": []
+                },
+                {
+                    "name": "type",
+                    "defaultValue": "'info'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 10,
+                    "type": "string",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": false,
+            "imports": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, Input } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-notification',\r\n  templateUrl: './notification.component.html',\r\n  styleUrls: ['./notification.component.scss']\r\n})\r\nexport class NotificationComponent {\r\n  @Input() message: string = '';\r\n  @Input() type: string = 'info';\r\n}\r\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".notification {\r\n    padding: 10px 20px;\r\n    border-radius: 5px;\r\n    color: #fff;\r\n    font-size: 14px;\r\n    max-width: 300px;\r\n    margin: 10px;\r\n    position: relative;\r\n  }\r\n\r\n  .success {\r\n    background-color: #4caf50;\r\n  }\r\n\r\n  .error {\r\n    background-color: #f44336;\r\n  }\r\n\r\n  .info {\r\n    background-color: #2196f3;\r\n  }\r\n",
+                    "styleUrl": "./notification.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "extends": [],
+            "templateData": "<div class=\"notification\"\r\n     [class.success]=\"type === 'success'\"\r\n     [class.error]=\"type === 'error'\"\r\n     [class.info]=\"type === 'info'\">\r\n  {{ message }}\r\n</div>\r\n"
+        },
+        {
             "name": "PageComponent",
             "id": "component-PageComponent-d32b0f19628254ea3fc5526c4d4564ada1cc83cf936759006d90a46f5874b02a3359e331bddda20b22e74a616a6443c660602ba74dd38ebe1160759e0de6f7ba",
             "file": "src/stories/page.component.ts",
@@ -740,6 +803,15 @@
                 "type": "component",
                 "linktype": "component",
                 "name": "MyButtonComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/notification/notification.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "NotificationComponent",
                 "coveragePercent": 0,
                 "coverageCount": "0/3",
                 "status": "low"
